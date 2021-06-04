@@ -5,7 +5,7 @@ public class CubeBonus : CubeTower
 {
     public void AddCubes(Cubes cubes)
     {
-        cubes.AddCube(numberCubes);
+        cubes.AddCube(transform.childCount);
         Destroy(gameObject);
     }
 

@@ -48,5 +48,18 @@ public class PlayerMover : MonoBehaviour
 
         _currentLineIndex = Mathf.Clamp(_currentLineIndex, -(linesCount / 2), (linesCount / 2));
     }
+
+    private void OnDrawGizmos()
+    {
+        for (float i = 0; i >= -(linesCount / 2); i -= offset)
+        {
+            Gizmos.DrawLine(new Vector3(i - offset, 0, 0), (new Vector3(i - offset, 0, 500)));
+        }
+
+        for (float i = -(linesCount / 2); i <= (linesCount / 2); i += offset)
+        {
+            Gizmos.DrawLine(new Vector3(i + offset, 0, 0), (new Vector3(i + offset, 0, 500)));
+        }
+    }
 }
  

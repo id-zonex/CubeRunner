@@ -11,13 +11,11 @@ public class Cubes
     private float GetCubeHeight => _cubePrefab.CubeHeight;
 
     private Cube GetLastCube => _spawnedCubes[_spawnedCubes.Count - 1];
+    private Cube GetFirstCube => _spawnedCubes[0];
+
     private Vector3 GetLastCubePosition => GetLastCube.transform.position;
 
-    private Vector3 GetNextCubePosition => new Vector3(
-        _parent.position.x,
-        GetLastCubePosition.y + GetCubeHeight,
-        _parent.position.z
-        );
+    private Vector3 GetNextCubePosition => new Vector3(_parent.position.x, GetLastCubePosition.y + GetCubeHeight, _parent.position.z);
 
     public Cubes(Transform parent, Cube cubePrefab)
     {
@@ -47,16 +45,10 @@ public class Cubes
 
     private void SpawnCube(Vector3 position)
     {
-        CreateCube(position);
-    }
-
-    private void CreateCube(Vector3 position)
-    {
         Cube cube = Object.Instantiate(_cubePrefab, position, Quaternion.identity);
         cube.transform.SetParent(_parent);
 
         _spawnedCubes.Add(cube);
-        cube.transform.SetParent(_parent);
     }
     #endregion
 
@@ -79,10 +71,10 @@ public class Cubes
 
     private void RemoveLastCube()
     {
-        Cube lastCube = GetLastCube;
+        Cube firstCube = GetFirstCube;
 
-        _spawnedCubes.Remove(lastCube);
-        lastCube.DeActivate();
+        _spawnedCubes.RemoveAt(0);
+        firstCube.DeActivate();
     }
     #endregion
 }

@@ -9,6 +9,12 @@ public class PlayerCubeTower : MonoBehaviour
     private void Start()
     {
         cubes = new Cubes(transform, cubePrefab);
-        cubes.AddCube(1);
+        cubes.AddCube();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+            cubes.RemoveCube();
     }
 }
