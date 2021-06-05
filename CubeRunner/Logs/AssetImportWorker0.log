@@ -1,213 +1,1377 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.5f1 (e2c53f129de5) revision 14861631'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'ru' Physical Memory: 32716 MB
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'ru' Physical Memory: 5335 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\2020.2.5f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.5f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/CubeRunner/CubeRunner
+C:/Users/tester/CubeRunner3D/CubeRunner
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55424
-Successfully changed project path to: D:/CubeRunner/CubeRunner
-D:/CubeRunner/CubeRunner
+49424
+Successfully changed project path to: C:/Users/tester/CubeRunner3D/CubeRunner
+C:/Users/tester/CubeRunner3D/CubeRunner
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 160.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.5f1 (e2c53f129de5)
-[Subsystems] Discovering subsystems at path D:/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/CubeRunner/CubeRunner/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tester/CubeRunner3D/CubeRunner/Assets
 GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 8650G (ID=0x990b)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   27.21.14.5671
+    VRAM:     738 MB
+    Driver:   15.201.2001.0
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'D:/2020.2.5f1/Editor/Data/Managed'
-Mono path[1] = 'D:/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001070 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003979 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 122.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.847 seconds
+- Completed reload, in  5.965 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001128 seconds.
+Registered in 0.003583 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EF75030 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000301E80B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031B6C370 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030BC9500 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302A84E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0CD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003200F3D0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030DB3150 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0CD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030E45630 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302A84E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031A02FC0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031BCE9F0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F3D5F50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F2F1470 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030BC9500 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F13C550 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0CD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F3EA960 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F3EA960 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003211C7F0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 119.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
+- Completed reload, in  2.646 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.8 MB.
-System memory in use after: 112.0 MB.
+System memory in use before: 112.3 MB.
+System memory in use after: 112.4 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2865.
-Total: 1.981100 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.090400 ms MarkObjects: 1.626200 ms  DeleteObjects: 0.068600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(9371319e61a8e5843982496db6f184fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(9371319e61a8e5843982496db6f184fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e636caca2cdc1e6dcc939bdb976c0ce') in 0.007509 seconds
-  Import took 0.010543 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2867.
+Total: 6.830798 ms (FindLiveObjects: 0.891705 ms CreateObjectMapping: 0.237597 ms MarkObjects: 5.468004 ms  DeleteObjects: 0.230620 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.050241 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(37b4bf13601a5254e98c922957527dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(37b4bf13601a5254e98c922957527dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bf33746fc80025379849eacfd137a8') in 0.006138 seconds
-  Import took 0.009097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.696039 seconds.
-  path: Assets/Prefabs/Cube.prefab
-  artifactKey: Guid(6adf33e127f3ad5428d1cc9887508b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cube.prefab using Guid(6adf33e127f3ad5428d1cc9887508b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b09e76aea006f60598c63f1aada948a') in 0.189903 seconds
-  Import took 0.193382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Prefabs/CubeWall.prefab
-  artifactKey: Guid(963812e8faa4b884e942688e666e4777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CubeWall.prefab using Guid(963812e8faa4b884e942688e666e4777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc34b2bb12196bf7d1f3aa2809a734b') in 0.008438 seconds
-  Import took 0.011555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Prefabs/CubeBonusObj.prefab
-  artifactKey: Guid(062caff4829933e48a3e495264a3db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CubeBonusObj.prefab using Guid(062caff4829933e48a3e495264a3db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7082e529f1e7fe829c13e292c5bf353a') in 0.007184 seconds
-  Import took 0.010485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Prefabs/CubeBonus.prefab
-  artifactKey: Guid(4a2c8d33c1da9344cbbd131feab99433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CubeBonus.prefab using Guid(4a2c8d33c1da9344cbbd131feab99433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb00283dd403f46b26ebca53ddf18c7') in 0.016137 seconds
-  Import took 0.019724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 272.168387 seconds.
   path: Assets/untitled.obj
   artifactKey: Guid(d8debd30b7f1c7e4db509ca993dcb14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/untitled.obj using Guid(d8debd30b7f1c7e4db509ca993dcb14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4159f9ea3ede48cb32fcdeda3f5032') in 0.255823 seconds
-  Import took 0.259461 seconds .
+Start importing Assets/untitled.obj using Guid(d8debd30b7f1c7e4db509ca993dcb14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6583294fb1667a7fee299ca3f01025') in 2.872923 seconds
+  Import took 2.884229 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.740812 seconds.
+  Time since last request: 0.012823 seconds.
   path: Assets/cube.obj
   artifactKey: Guid(f7ef15a9d276bfb4daa40dc16ee9d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cube.obj using Guid(f7ef15a9d276bfb4daa40dc16ee9d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb5646b376aa298e5d48344b6ea50e4') in 0.027054 seconds
-  Import took 0.030449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003121 seconds.
-  path: Assets/cube.obj
-  artifactKey: Guid(f7ef15a9d276bfb4daa40dc16ee9d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cube.obj using Guid(f7ef15a9d276bfb4daa40dc16ee9d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb5646b376aa298e5d48344b6ea50e4') in 0.031926 seconds
-  Import took 0.035261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.820501 seconds.
-  path: Assets/Prefabs/Cube.prefab
-  artifactKey: Guid(6adf33e127f3ad5428d1cc9887508b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cube.prefab using Guid(6adf33e127f3ad5428d1cc9887508b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a43debd3f46708a40845a5aa7b0cee') in 0.012719 seconds
-  Import took 0.016257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.699856 seconds.
-  path: Assets/Prefabs/CubeBonus.prefab
-  artifactKey: Guid(4a2c8d33c1da9344cbbd131feab99433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CubeBonus.prefab using Guid(4a2c8d33c1da9344cbbd131feab99433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdb97014815e7eff9169b177dbb95bb') in 0.012705 seconds
-  Import took 0.015972 seconds .
+Start importing Assets/cube.obj using Guid(f7ef15a9d276bfb4daa40dc16ee9d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21017b83bbf34827340c0d6e12a7eb7') in 0.153131 seconds
+  Import took 0.209163 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001233 seconds.
+Registered in 0.004424 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000000032630080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031C35950 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000034011010 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031B6C370 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031408080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000308B30F0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0AF0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003104AD10 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030DB3150 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0AF0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032590080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000308B30F0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FA9710 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033E94E70 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030E85040 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000332E24B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030533D10 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031408080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F13C550 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0AF0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000315E7C30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000315E7C30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032630080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  3.378 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 112.2 MB.
 System memory in use after: 112.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2952.
-Total: 2.753200 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.107700 ms MarkObjects: 2.346400 ms  DeleteObjects: 0.056300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2951.
+Total: 11.854796 ms (FindLiveObjects: 1.096063 ms CreateObjectMapping: 0.441544 ms MarkObjects: 10.105445 ms  DeleteObjects: 0.207641 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.753864 seconds.
+  path: Assets/Scripts/CubeTower/Cubes.cs
+  artifactKey: Guid(4dde4196371a409428a91c4f7c7dd118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CubeTower/Cubes.cs using Guid(4dde4196371a409428a91c4f7c7dd118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7940444960c17625dc5afe18dddd008') in 1.594590 seconds
+  Import took 1.606431 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001168 seconds.
+Registered in 2.115005 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000000574D0080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EF75030 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003472FAB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F1B6B20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347E6490 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057955410 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0CD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032520080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031A44370 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0CD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057914410 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057955410 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033CCF380 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031A7E850 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032F477E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033EEAFF0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033B17AF0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347E6490 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000235B79C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB0CD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030DB3150 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000574D0080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.741 seconds
+- Completed reload, in  2.968 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 112.3 MB.
 System memory in use after: 112.5 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2955.
-Total: 2.534300 ms (FindLiveObjects: 0.226000 ms CreateObjectMapping: 0.106500 ms MarkObjects: 2.147300 ms  DeleteObjects: 0.053400 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 4.635800 ms (FindLiveObjects: 0.619639 ms CreateObjectMapping: 0.224465 ms MarkObjects: 3.671462 ms  DeleteObjects: 0.117362 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002588 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000000032C081C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F11E7D0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032EFC910 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302CDA60 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F1E9540 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB1270 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000034221EA0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031A44370 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB1270 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F1E9540 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000345B3FB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FE6D20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000309930F0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057D518A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302CDA60 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F13C550 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB1270 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339409B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030DB3150 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032C081C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.139 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2957.
+Total: 19.651164 ms (FindLiveObjects: 0.700069 ms CreateObjectMapping: 0.336903 ms MarkObjects: 18.468926 ms  DeleteObjects: 0.143625 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000000326AD560 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F1C6B20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000034731AB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FE2D20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057F671C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB1450 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000342802B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB1450 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F1E9540 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000345B3FB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F1C6B20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032690080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F196B20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032112360 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FE2D20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000330E8910 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EEB1450 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000583388D0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000326AD560 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.095 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2960.
+Total: 5.889030 ms (FindLiveObjects: 1.718984 ms CreateObjectMapping: 0.353728 ms MarkObjects: 3.700187 ms  DeleteObjects: 0.114079 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011122 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000000329F01C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347A3160 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F0C2830 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FE2D20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057F671C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033BD3E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031A44370 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033BD3E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030400FD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255EE90 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030514F40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032F477E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057EC0970 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033B1A400 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FE2D20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000330E8910 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033BD3E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057F0F1A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000343E3B20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000329F01C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.2 MB.
+System memory in use after: 112.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2963.
+Total: 4.969831 ms (FindLiveObjects: 0.633591 ms CreateObjectMapping: 0.212565 ms MarkObjects: 3.995644 ms  DeleteObjects: 0.125159 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057D6CF50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F0C2830 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032A68220 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057F671C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302BAC40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302BAC40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030400FD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255EE90 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F571F80 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000034295590 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057E962C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302A84E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302BAC40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.609 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2966.
+Total: 6.768424 ms (FindLiveObjects: 0.894988 ms CreateObjectMapping: 0.218720 ms MarkObjects: 5.495498 ms  DeleteObjects: 0.155936 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347A3160 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D21A40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032A68220 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032698080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030400FD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255EE90 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339B7070 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000304F3550 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033B1A400 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F1DD540 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE8F560 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.606 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2969.
+Total: 5.952635 ms (FindLiveObjects: 0.844104 ms CreateObjectMapping: 0.372194 ms MarkObjects: 4.572605 ms  DeleteObjects: 0.161681 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 853.466940 seconds.
+  path: Assets/Materials/Cube.mat
+  artifactKey: Guid(68767aba4a364a3469948c530276dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cube.mat using Guid(68767aba4a364a3469948c530276dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee9eb3e59090aa9451021600cd23180') in 0.415798 seconds
+  Import took 0.423791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023906 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(6adf33e127f3ad5428d1cc9887508b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(6adf33e127f3ad5428d1cc9887508b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8969cd41c84a1aba970da771f4bc4bc') in 0.098667 seconds
+  Import took 0.106088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Prefabs/CubeWall.prefab
+  artifactKey: Guid(963812e8faa4b884e942688e666e4777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CubeWall.prefab using Guid(963812e8faa4b884e942688e666e4777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde8c66f72d30802100216fa4388022c') in 0.021934 seconds
+  Import took 0.031574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Prefabs/CubeBonusObj.prefab
+  artifactKey: Guid(062caff4829933e48a3e495264a3db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CubeBonusObj.prefab using Guid(062caff4829933e48a3e495264a3db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787b2654f776147c2cf13dd532ecf56c') in 0.028324 seconds
+  Import took 0.036175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Prefabs/CubeBonus.prefab
+  artifactKey: Guid(4a2c8d33c1da9344cbbd131feab99433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CubeBonus.prefab using Guid(4a2c8d33c1da9344cbbd131feab99433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a243844b27e9f0372a97d55fb8b844') in 0.056094 seconds
+  Import took 0.066797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003262 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057D6CF50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000330EEB10 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D21210 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D21210 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255EE90 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031B64370 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000578E8410 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FAE490 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033B1A400 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302A84E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D21210 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.038 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.5 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3008.
+Total: 4.715409 ms (FindLiveObjects: 0.581886 ms CreateObjectMapping: 0.162091 ms MarkObjects: 3.847505 ms  DeleteObjects: 0.121055 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003300 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057D6CF50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000330EEB10 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032698080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255EE90 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030530F40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F1DD540 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059806DC0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000330E4920 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000034448D80 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059806DC0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059806DC0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.943 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.5 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 14.294367 ms (FindLiveObjects: 1.089087 ms CreateObjectMapping: 0.265911 ms MarkObjects: 12.732139 ms  DeleteObjects: 0.204768 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003260 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057D6CF50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F0C2830 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057FFBDD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255EE90 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003063FB70 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059806DC0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000330E5240 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000034448D80 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D20E50 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059806DC0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059806DC0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.033 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3014.
+Total: 5.752381 ms (FindLiveObjects: 0.745618 ms CreateObjectMapping: 0.225696 ms MarkObjects: 4.662473 ms  DeleteObjects: 0.115721 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003279 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031A7E850 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000005796F020 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255EE90 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000235B79C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059816DE0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000331B7250 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D7D530 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.374 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.5 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3017.
+Total: 4.936592 ms (FindLiveObjects: 0.628667 ms CreateObjectMapping: 0.218310 ms MarkObjects: 3.976767 ms  DeleteObjects: 0.111207 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004196 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031A7E850 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000005796F020 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057FFBDD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000599C3460 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255EE90 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031408080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031848A20 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FAE490 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000034292C80 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D7D530 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.949 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.5 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3020.
+Total: 14.989922 ms (FindLiveObjects: 0.755877 ms CreateObjectMapping: 0.194919 ms MarkObjects: 13.890986 ms  DeleteObjects: 0.145677 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003932 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000235CFA30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A0DAC0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057FFBDD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000345B3FB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000235CFA30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059937020 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000599CB460 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000332CADB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D7D530 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003227AEB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000031D18610 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.019 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.5 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 4.563577 ms (FindLiveObjects: 0.568344 ms CreateObjectMapping: 0.180967 ms MarkObjects: 3.698956 ms  DeleteObjects: 0.112848 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057900430 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255F090 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059A2B520 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057FFBDD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000345B3FB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057900430 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059937020 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059963180 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033B17AF0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033D7D530 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059A2B520 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059A2B520 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.518 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.5 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3026.
+Total: 4.607486 ms (FindLiveObjects: 0.616356 ms CreateObjectMapping: 0.169477 ms MarkObjects: 3.698545 ms  DeleteObjects: 0.121466 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002859 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000576F54E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255F090 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057FFBDD0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059AF5420 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000345B3FB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000576F54E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059A9D360 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059A2B520 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033B17AF0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302A84E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059A2B520 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059A2B520 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.860 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3029.
+Total: 14.509394 ms (FindLiveObjects: 0.646312 ms CreateObjectMapping: 0.222003 ms MarkObjects: 13.501558 ms  DeleteObjects: 0.136649 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003875 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000338F1C80 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000003255F090 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033A72CB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000339BC870 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000347178B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032A60220 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032440080 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000057A87E30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000032E626A0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EE9F8C0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000345B3FB0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002EF03AA0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059937020 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FAE490 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033B17AF0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000030FDAD30 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000000302A84E0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000033FEB6B0 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059AF5420 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000000059AF5420 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000000002F259D40 doesn't match image C:\Users\tester\CubeRunner3D\CubeRunner\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.984 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3032.
+Total: 5.687545 ms (FindLiveObjects: 0.653288 ms CreateObjectMapping: 0.214617 ms MarkObjects: 4.706792 ms  DeleteObjects: 0.110796 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
