@@ -17,5 +17,6 @@ public class Cube : MonoBehaviour
     {
         transform.SetParent(null);
         _rigidbody.constraints = RigidbodyConstraints.None;
+        Destroy(gameObject, 4);
     }
 }

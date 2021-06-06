@@ -20,6 +20,9 @@ public class PlayerMover : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+            Levels.Instanse.LoadNextLevel();
+
         MoveForward();
         ControllHorizontal();
     }

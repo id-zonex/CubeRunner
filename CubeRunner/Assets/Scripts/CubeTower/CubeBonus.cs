@@ -3,6 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class CubeBonus : CubeTower
 {
+    private bool _active = true;
+
     public void AddCubes(Cubes cubes)
     {
         cubes.AddCube(transform.childCount);
@@ -13,7 +15,10 @@ public class CubeBonus : CubeTower
     {
         PlayerCubeTower playerCubeTower = other.gameObject.GetComponentInParent<PlayerCubeTower>();
 
-        if (playerCubeTower)
+        if (playerCubeTower && _active)
+        {
             AddCubes(playerCubeTower.cubes);
+            _active = false;
+        }
     }
 }

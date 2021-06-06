@@ -4,21 +4,19 @@ public class CubeWall : CubeTower
 {
     private bool _active = true;
 
-    public void RemoveCubes(Cubes cubes)
-    {
-        if (_active)
-            cubes.RemoveCube(transform.childCount);
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         PlayerCubeTower playerCubeTower = other.GetComponentInParent<PlayerCubeTower>();
 
-        if (playerCubeTower)
+        if (playerCubeTower && _active)
         {
             RemoveCubes(playerCubeTower.cubes);
-            _active = false;
         }
+    }
 
+    private void RemoveCubes(Cubes cubes)
+    {
+        cubes.RemoveCube(transform.childCount);
+        _active = false;
     }
 }
