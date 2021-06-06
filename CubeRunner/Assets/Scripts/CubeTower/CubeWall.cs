@@ -6,10 +6,8 @@ public class CubeWall : CubeTower
 
     public void RemoveCubes(Cubes cubes)
     {
-        if(_active)
+        if (_active)
             cubes.RemoveCube(transform.childCount);
-
-        _active = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -17,6 +15,10 @@ public class CubeWall : CubeTower
         PlayerCubeTower playerCubeTower = other.GetComponentInParent<PlayerCubeTower>();
 
         if (playerCubeTower)
+        {
             RemoveCubes(playerCubeTower.cubes);
+            _active = false;
+        }
+
     }
 }

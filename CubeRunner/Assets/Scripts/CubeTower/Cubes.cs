@@ -26,6 +26,8 @@ public class Cubes
     #region Cube Placer
     public void AddCube(int count)
     {
+        Debug.Log("Add:" + count);
+
         for (int i = 0; i < count; i++)
         {
             AddCube();
@@ -55,6 +57,8 @@ public class Cubes
     #region Cube Remover
     public void RemoveCube(int count)
     {
+        Debug.Log("Remove:" + count);
+
         for (int i = 0; i < count; i++)
         {
             RemoveCube();

@@ -1,4 +1,4 @@
-using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -9,10 +9,14 @@ public class PlayerMover : MonoBehaviour
     [SerializeField] private float horizontalSpeed = 1;
 
     [Header("Horizontal Move Settings")]
-    [SerializeField] private float offset = 2;
-    [SerializeField] private int linesCount = 5;
+    [SerializeField] private List<Vector3> lines = new List<Vector3>();
 
     private int _currentLineIndex;
+
+    private void Awake()
+    {
+        _currentLineIndex = lines.Count / 2;
+    }
 
     private void Update()
     {
@@ -34,7 +38,7 @@ public class PlayerMover : MonoBehaviour
     private void MoveHorizontal()
     {
         Vector3 newPosition = transform.position;
-        newPosition.x = Mathf.LerpUnclamped(newPosition.x, _currentLineIndex * offset, Time.deltaTime * horizontalSpeed);
+        newPosition.x = Mathf.Lerp(newPosition.x, lines[_currentLineIndex].x, Time.deltaTime * horizontalSpeed);
         transform.position = newPosition;
     }
 
@@ -46,19 +50,14 @@ public class PlayerMover : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.D))
             _currentLineIndex++;
 
-        _currentLineIndex = Mathf.Clamp(_currentLineIndex, -(linesCount / 2), (linesCount / 2));
+        _currentLineIndex = Mathf.Clamp(_currentLineIndex, 0, lines.Count - 1);
     }
 
     private void OnDrawGizmos()
     {
-        for (float i = 0; i >= -(linesCount / 2); i -= offset)
+        foreach(Vector3 line in lines)
         {
-            Gizmos.DrawLine(new Vector3(i - offset, 0, 0), (new Vector3(i - offset, 0, 500)));
-        }
-
-        for (float i = -(linesCount / 2); i <= (linesCount / 2); i += offset)
-        {
-            Gizmos.DrawLine(new Vector3(i + offset, 0, 0), (new Vector3(i + offset, 0, 500)));
+            Gizmos.DrawLine(line, Vector3.forward * 500);
         }
     }
 }
